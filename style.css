@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-padding-top: 2rem;
+  scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
+}
+
+logo img{
+  height: 6rem;
+  width: 100%;
+  right: 50px;
+  position: top-left;
+}
+
+html::-webkit-scrollbar{
+  width: 0.5rem;
+  color: #39ff14;
+}
+
